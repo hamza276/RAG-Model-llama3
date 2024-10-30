@@ -1,6 +1,7 @@
 from groq import Groq
+from app_constants import API_KEY
 
-API_KEY = "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"  # Replace with your API key
+API_KEY = API_KEY  # Replace with your API key
 
 def query_llama_api(query):
     """Directly query the LLaMA 3 model using the Groq client."""
