@@ -31,7 +31,7 @@ This project uses a pre-defined PDF document (`Deep Reinforcement Learning for P
 
 ## Prerequisites
 
-- **Python 3.8+**
+- **Python 3.10.0**
 - **Groq API Key** for accessing LLaMA 3
 - **PDF File**: Ensure the path to `Deep Reinforcement Learning for Portfolio Optimization.pdf` is correctly specified.
 
