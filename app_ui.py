@@ -2,12 +2,12 @@ import streamlit as st
 from load_pdf import extract_pdf_text
 from vector_store import initialize_vector_store, add_document_to_index, search_similar
 from query_llama import query_llama_api
+from app_constant import pdf_path
 
 def main_ui():
     st.title("Retrieval-Augmented Generation with LLaMA 3")
 
     # Load PDF from the specified path
-    pdf_path = "C:/Users/hamza.k/Desktop/Deep Reinforcement Learning for Portfolio Optimization.pdf"
     text = extract_pdf_text(pdf_path)
     st.write("Your data is loaded!")  # Display message instead of PDF preview
 
